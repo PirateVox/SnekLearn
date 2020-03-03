@@ -1,0 +1,21 @@
+mac = 'AAAA:BBBB:CCCC'
+
+mac = ''.join(mac.split(':'))
+mac = mac.lower()
+mac = mac.replace('1','0001')
+mac = mac.replace('2','0010')
+mac = mac.replace('3','0011')
+mac = mac.replace('4','0100')
+mac = mac.replace('5','0101')
+mac = mac.replace('6','0110')
+mac = mac.replace('7','0111')
+mac = mac.replace('8','1000')
+mac = mac.replace('9','1001')
+mac = mac.replace('a','1010')
+mac = mac.replace('b','1011')
+mac = mac.replace('c','1100')
+mac = mac.replace('d','1101')
+mac = mac.replace('e','1110')
+mac = mac.replace('f','1111')
+
+print(mac)
